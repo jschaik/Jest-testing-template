@@ -1,4 +1,4 @@
-# Jest Testing - Opdrachten 
+# Jest Testing - Opdrachten Template
 
 Een verzameling hands-on opdrachten om Jest testing te leren voor JavaScript en React.
 
@@ -32,8 +32,8 @@ Ja, maar:
 3. **Producten Sorteren** - Arrays en `toContain`
 
 ### JavaScript met Setup (2 opdrachten)
-4. **ShoppingCart Class** - `beforeEach` en class methods
-5. **Game Score Tracker** - Setup/teardown lifecycle
+4. **Form Validatie** - `beforeEach` en test data
+5. **Quiz Score** - Setup/teardown met arrays
 
 ### React Components (3 opdrachten)
 6. **ProfileCard Component** - Basis rendering tests
@@ -47,16 +47,31 @@ Ja, maar:
 2. Kies **"Create a new repository"**
 3. Geef je repository een naam (bijv. `mijn-jest-opdrachten`)
 4. Klik op **"Create repository"**
-5. Clone je nieuwe repository via de GitHub desktop app
+5. Clone je nieuwe repository naar je computer
 
-### 2. Installeer Jest en dependencies
+### 2. Installeer dependencies
 ```bash
-npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event jsdom @babel/preset-react @babel/preset-env babel-jest identity-obj-proxy
+npm install
 ```
 
 ### 3. Test of het werkt
 ```bash
 npm test
+```
+
+Je zou moeten zien dat er tests falen - dat klopt! Die moet je namelijk zelf invullen.
+
+## Hoe te gebruiken
+
+Elke opdracht heeft een eigen map in `src/` met:
+- De code die je moet testen (al klaar)
+- Een test bestand waar jij tests invult
+- Een README.md met instructies
+
+**Voorbeeld:**
+```bash
+npm test opdracht-01  # Test alleen opdracht 1
+npm test              # Test alle opdrachten
 ```
 
 ## Meer info
@@ -65,7 +80,16 @@ Voor uitgebreide uitleg over setup, matchers en component testing, zie de [Jest 
 
 ## Tips
 
-- Begin met de JavaScript opdrachten voordat je React test
-- Run tests vaak: `npm test`
-- Gebruik watch mode: `npm run test:watch`
+- Begin met opdracht 1 en werk stap voor stap door
+- Elke opdracht heeft een README.md met uitleg
+- Run tests vaak: `npm test opdracht-XX`
 - Lees error messages goed - ze helpen je!
+- Alle tests groen? Dan ben je klaar met die opdracht!
+
+## Voor Docenten
+
+Uitwerkingen staan in `*.test.UITWERKING.js` bestanden. Deze staan in `.gitignore` zodat studenten ze niet zien.
+
+---
+
+**Gemaakt voor MBO Software Developer studenten | Niveau 4**
