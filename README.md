@@ -86,10 +86,4 @@ Voor uitgebreide uitleg over setup, matchers en component testing, zie de [Jest 
 - Lees error messages goed - ze helpen je!
 - Alle tests groen? Dan ben je klaar met die opdracht!
 
-## Voor Docenten
 
-Uitwerkingen staan in `*.test.UITWERKING.js` bestanden. Deze staan in `.gitignore` zodat studenten ze niet zien.
-
----
-
-**Gemaakt voor MBO Software Developer studenten | Niveau 4**
