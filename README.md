@@ -129,10 +129,3 @@ Voor uitgebreide uitleg over setup, matchers en component testing, zie de [Jest 
 - **Periode 1:** Alle tests groen? Dan ben je klaar!
 - **Periode 2:** Alle tests groen? Dan werkt je code perfect!
 
-## Voor Docenten
-
-Uitwerkingen staan in `*.UITWERKING.js` en `*.UITWERKING.jsx` bestanden. Deze staan in `.gitignore` zodat studenten ze niet zien.
-
----
-
-**Gemaakt voor MBO Software Developer studenten | Niveau 4**
