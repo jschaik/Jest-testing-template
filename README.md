@@ -83,15 +83,15 @@ npm install
 npm test
 ```
 
-**Periode 1:** Je ziet tests falen - dat klopt! Die moet je namelijk zelf invullen.  
-**Periode 2:** Je ziet ook tests falen - maar nu schrijf je de CODE om ze te laten slagen!
+**Periode 7:** Je ziet tests falen - dat klopt! Die moet je namelijk zelf invullen.  
+**Periode 8:** Je ziet ook tests falen - maar nu schrijf je de CODE om ze te laten slagen!
 
 ## Hoe te gebruiken
 
 Elke opdracht heeft een eigen map in `src/` met:
 
-- **Periode 1 (1-8):** Code is klaar, jij vult tests in
-- **Periode 2 (9-14):** Tests zijn klaar, jij schrijft de code (TDD!)
+- **Periode 7 (1-8):** Code is klaar, jij vult tests in
+- **Periode 8 (9-14):** Tests zijn klaar, jij schrijft de code (TDD!)
 - Een README.md met instructies per opdracht
 
 **Voorbeeld:**
@@ -111,10 +111,10 @@ Bij TDD opdrachten werk je anders:
 3. **REFACTOR** - Maak code mooier
 4. **REPEAT** - Herhaal tot alle tests groen zijn
 
-**Verschil met periode 1:**
+**Verschil met periode 7:**
 
-- Periode 1: Jij schrijft tests voor bestaande code
-- Periode 2: Jij schrijft code voor bestaande tests
+- Periode 7: Jij schrijft tests voor bestaande code
+- Periode 8: Jij schrijft code voor bestaande tests
 
 ## Meer info
 
@@ -126,6 +126,6 @@ Voor uitgebreide uitleg over setup, matchers en component testing, zie de [Jest 
 - Elke opdracht heeft een README.md met uitleg
 - Run tests vaak: `npm test opdracht-XX`
 - Lees error messages goed - ze helpen je!
-- **Periode 1:** Alle tests groen? Dan ben je klaar!
-- **Periode 2:** Alle tests groen? Dan werkt je code perfect!
+- **Periode 7:** Alle tests groen? Dan ben je klaar!
+- **Periode 8:** Alle tests groen? Dan werkt je code perfect!
 
