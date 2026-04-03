@@ -1,6 +1,6 @@
 # Jest Testing - Opdrachten Template
 
-Een verzameling hands-on opdrachten om Jest testing te leren voor JavaScript en React.
+Een verzameling hands-on opdrachten om Jest testing en TDD te leren voor JavaScript en React.
 
 ## Wat is Jest?
 
@@ -11,12 +11,14 @@ Jest is een testing framework voor JavaScript. Het helpt je automatisch te check
 **"Kan ik niet gewoon zelf testen in de browser?"**
 
 Ja, maar:
+
 - Handmatig testen kost 5-10 minuten per keer
 - Na elke code wijziging moet je ALLES opnieuw testen
 - Je vergeet makkelijk edge cases
 - Naarmate je app groeit wordt dit onhoudbaar
 
 **Met Jest:**
+
 - Schrijf tests 1x (10 minuten)
 - Run alle tests in 2 seconden: `npm test`
 - Tests vangen bugs voordat gebruikers ze zien
@@ -24,25 +26,45 @@ Ja, maar:
 
 **Break-even:** Na 2-3 code wijzigingen heb je de tijd terugverdiend. Daarna is het pure winst!
 
-## Opdrachten
+## Opdrachten Periode 7: Basis Jest (8 opdrachten)
 
 ### JavaScript Basis (3 opdrachten)
+
 1. **Todo Item Validatie** - Basis matchers (`toBe`, `toEqual`)
 2. **Wachtwoord Checker** - Objecten en arrays testen
 3. **Producten Sorteren** - Arrays en `toContain`
 
 ### JavaScript met Setup (2 opdrachten)
+
 4. **Form Validatie** - `beforeEach` en test data
 5. **Quiz Score** - Setup/teardown met arrays
 
 ### React Components (3 opdrachten)
+
 6. **ProfileCard Component** - Basis rendering tests
 7. **LikeButton Component** - User events en state
 8. **SearchBar Component** - Input handling en conditional rendering
 
+## Opdrachten Periode 8: TDD (6 opdrachten)
+
+**Wat is TDD?** Test Driven Development = Eerst tests schrijven, dan code!
+
+### JavaScript TDD (4 opdrachten)
+
+9. **Calculator** - TDD basis leren (add, subtract, multiply, divide)
+10. **Workout Duration** - Reduce & berekeningen met workout data
+11. **Workout Filter** - Filter & sort functies
+12. **Weekly Schedule** - Week planning met objecten
+
+### React TDD (2 opdrachten)
+
+13. **WorkoutCard Component** - Component bouwen met tests
+14. **WorkoutForm Component** - Form met state, validatie & submit
+
 ## Installatie
 
 ### 1. Gebruik deze template
+
 1. Klik op de groene knop **"Use this template"** bovenaan deze pagina
 2. Kies **"Create a new repository"**
 3. Geef je repository een naam (bijv. `mijn-jest-opdrachten`)
@@ -50,29 +72,49 @@ Ja, maar:
 5. Clone je nieuwe repository naar je computer
 
 ### 2. Installeer dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Test of het werkt
+
 ```bash
 npm test
 ```
 
-Je zou moeten zien dat er tests falen - dat klopt! Die moet je namelijk zelf invullen.
+**Periode 1:** Je ziet tests falen - dat klopt! Die moet je namelijk zelf invullen.  
+**Periode 2:** Je ziet ook tests falen - maar nu schrijf je de CODE om ze te laten slagen!
 
 ## Hoe te gebruiken
 
 Elke opdracht heeft een eigen map in `src/` met:
-- De code die je moet testen (al klaar)
-- Een test bestand waar jij tests invult
-- Een README.md met instructies
+
+- **Periode 1 (1-8):** Code is klaar, jij vult tests in
+- **Periode 2 (9-14):** Tests zijn klaar, jij schrijft de code (TDD!)
+- Een README.md met instructies per opdracht
 
 **Voorbeeld:**
+
 ```bash
 npm test opdracht-01  # Test alleen opdracht 1
+npm test opdracht-09  # Test alleen opdracht 9 (TDD)
 npm test              # Test alle opdrachten
 ```
+
+## TDD Workflow (Opdracht 9-14)
+
+Bij TDD opdrachten werk je anders:
+
+1. **RED** - Run tests (alles is rood ❌ - tests falen)
+2. **GREEN** - Schrijf code tot tests groen zijn ✅
+3. **REFACTOR** - Maak code mooier
+4. **REPEAT** - Herhaal tot alle tests groen zijn
+
+**Verschil met periode 1:**
+
+- Periode 1: Jij schrijft tests voor bestaande code
+- Periode 2: Jij schrijft code voor bestaande tests
 
 ## Meer info
 
@@ -84,6 +126,13 @@ Voor uitgebreide uitleg over setup, matchers en component testing, zie de [Jest 
 - Elke opdracht heeft een README.md met uitleg
 - Run tests vaak: `npm test opdracht-XX`
 - Lees error messages goed - ze helpen je!
-- Alle tests groen? Dan ben je klaar met die opdracht!
+- **Periode 1:** Alle tests groen? Dan ben je klaar!
+- **Periode 2:** Alle tests groen? Dan werkt je code perfect!
 
+## Voor Docenten
 
+Uitwerkingen staan in `*.UITWERKING.js` en `*.UITWERKING.jsx` bestanden. Deze staan in `.gitignore` zodat studenten ze niet zien.
+
+---
+
+**Gemaakt voor MBO Software Developer studenten | Niveau 4**
