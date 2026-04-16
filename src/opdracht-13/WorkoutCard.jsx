@@ -14,14 +14,6 @@ function WorkoutCard({ workout, onDelete }) {
   
   // Geef de container div een className="workout-card"
   
-  // Voorbeeld structuur:
-  // <div className="workout-card">
-  //   <h3>{workout.title}</h3>
-  //   <p>{workout.reps} reps</p>
-  //   <p>{workout.load} kg</p>
-  //   <button onClick={() => onDelete && onDelete(workout._id)}>Delete</button>
-  // </div>
-  
   return null; // TODO: Vervang met je component
 }
 

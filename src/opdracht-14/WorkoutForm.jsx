@@ -9,10 +9,6 @@ import { useState } from 'react';
 
 function WorkoutForm({ onSubmit }) {
   // TODO: Maak state voor title, reps, load
-  // const [title, setTitle] = useState('');
-  // const [reps, setReps] = useState('');
-  // const [load, setLoad] = useState('');
-  // const [error, setError] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
