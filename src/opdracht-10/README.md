@@ -50,6 +50,7 @@ Schrijf functies die statistieken berekenen over je workouts. De tests zijn al k
   - Totale reps × 3 seconden
   - Delen door 60 voor minuten
   - Afronden: `Math.round(getal * 100) / 100`
+  - **Waarom `* 100 / 100`?** `Math.round()` rondt af op hele getallen. Door eerst × 100 te doen, verschuif je de komma 2 plekken (1.5 → 150), rond je af (150), en deel je weer door 100 (1.50). Zo krijg je altijd maximaal 2 decimalen.
 - Voor `getTotalVolume()`:
   - Per workout: `reps × load`
   - Tel alle volumes op

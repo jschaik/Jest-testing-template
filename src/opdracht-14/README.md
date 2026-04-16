@@ -32,17 +32,25 @@ Een `WorkoutForm` component met:
 3. **Refactor** → Maak code mooier
 4. **Repeat**
 
-## Stappenplan
+## Stappenplan in twee fases
+
+### Fase A — Form bouwen en submit werkend maken
 1. Run tests → zie welke falen
-2. Begin met state: `useState` voor title, reps, load, error
+2. Begin met state: `useState` voor title, reps, load
 3. Maak inputs met placeholders
 4. Maak inputs controlled (value + onChange)
 5. Maak submit button
-6. Maak handleSubmit functie
-7. Voeg validatie toe
-8. Converteer reps/load naar numbers
-9. Reset form na submit
-10. Alle tests groen? Klaar! ✅
+6. Maak handleSubmit functie: roep `onSubmit` aan met de data
+7. Converteer reps/load naar numbers
+8. Reset form na submit
+
+**Stop hier! Run `npm test opdracht-14` → de eerste 3 describe-blokken moeten groen zijn ✅**
+
+### Fase B — Validatie toevoegen
+9. Voeg `useState` toe voor error
+10. Check in handleSubmit of title leeg is
+11. Toon error message in de JSX
+12. Alle tests groen? Klaar! ✅
 
 ## Tips
 - **State setup:**
